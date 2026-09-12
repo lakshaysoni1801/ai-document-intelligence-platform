@@ -1,0 +1,17 @@
+# Environment secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+venv/
+
+# Build output
+.next/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
